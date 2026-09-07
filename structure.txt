@@ -1,0 +1,110 @@
+.
+├── analysis
+│   ├── aer_analysis_dncnn.py
+│   ├── aer_analysis_mnist.py
+│   ├── efficiency_analysis.py
+│   ├── final_analysis.py
+│   ├── incremental_aer_analysis.py
+│   └── plot_results.py
+├── archive.zip
+├── carbontracker_logs
+│   ├── 44271.429055_2026-04-06T182604Z_carbontracker.log
+│   ├── 44271.429055_2026-04-06T182604Z_carbontracker_err.log
+│   ├── 44271.429055_2026-04-06T182604Z_carbontracker_output.log
+│   ├── 44407.63976_2026-04-06T182941Z_carbontracker.log
+│   ├── 44407.63976_2026-04-06T182941Z_carbontracker_err.log
+│   ├── 44407.63976_2026-04-06T182941Z_carbontracker_output.log
+│   ├── 44574.64071_2026-04-06T183345Z_carbontracker.log
+│   ├── 44574.64071_2026-04-06T183345Z_carbontracker_err.log
+│   ├── 44574.64071_2026-04-06T183345Z_carbontracker_output.log
+│   ├── 44688.710657_2026-04-06T183544Z_carbontracker.log
+│   ├── 44688.710657_2026-04-06T183544Z_carbontracker_err.log
+│   └── 44688.710657_2026-04-06T183544Z_carbontracker_output.log
+├── data
+├── databases
+│   ├── mnist_optuna.db
+│   ├── optuna_dncnn.db
+│   ├── optuna_dncnn_cumulator.db
+│   ├── optuna_dncnn_eco2ai.db
+│   ├── optuna_mnist_cumulator.db
+│   ├── optuna_mnist_eco2ai.db
+│   ├── optuna_study.db
+│   └── results
+├── logs
+│   └── powermetrics_log.txt
+├── results
+│   ├── csv
+│   │   ├── dncnn_final_evaluation.csv
+│   │   ├── dncnn_incremental_aer.csv
+│   │   ├── dncnn_optuna_unified.csv
+│   │   ├── efficiency_results.csv
+│   │   ├── emissions.csv
+│   │   ├── mnist_final_evaluation.csv
+│   │   ├── mnist_incremental_aer.csv
+│   │   ├── mnist_optuna_unified.csv
+│   │   ├── my_emission.csv
+│   │   ├── results.csv
+│   │   ├── results_dncnn_cc.csv
+│   │   ├── results_dncnn_cc_exp.csv
+│   │   ├── results_dncnn_ct.csv
+│   │   ├── results_dncnn_cumulator.csv
+│   │   ├── results_dncnn_eco2ai.csv
+│   │   ├── results_mnist_cc.csv
+│   │   ├── results_mnist_cc_exp.csv
+│   │   ├── results_mnist_ct.csv
+│   │   ├── results_mnist_cumulator.csv
+│   │   ├── results_mnist_eco2ai.csv
+│   │   ├── results_optuna_dncnn_codecarbon.csv
+│   │   ├── results_optuna_dncnn_cumulator.csv
+│   │   ├── results_optuna_dncnn_eco2ai.csv
+│   │   ├── results_optuna_mnist_codecarbon.csv
+│   │   ├── results_optuna_mnist_cumulator.csv
+│   │   └── results_optuna_mnist_eco2ai.csv
+│   └── thesis_results
+│       ├── dncnn_aer.png
+│       ├── dncnn_aer_log.png
+│       ├── dncnn_aer_table.csv
+│       ├── dncnn_aer_table.tex
+│       ├── dncnn_best_runs.csv
+│       ├── dncnn_pareto.png
+│       ├── dncnn_summary.csv
+│       ├── mnist_aer.png
+│       ├── mnist_aer_log.png
+│       ├── mnist_aer_table.csv
+│       ├── mnist_aer_table.tex
+│       ├── mnist_best_runs.csv
+│       ├── mnist_pareto.png
+│       └── mnist_summary.csv
+├── src
+│   ├── dncnn
+│   │   ├── dncnn_carbontracker.py
+│   │   ├── dncnn_codecarbon.py
+│   │   ├── dncnn_codecarbon_exp.py
+│   │   ├── dncnn_eco2ai.py
+│   │   ├── dncnn_eit.py
+│   │   └── dncnn_evaluation.py
+│   ├── mnist
+│   │   ├── mnist_carbontracker.py
+│   │   ├── mnist_codecarbon.py
+│   │   ├── mnist_codecarbon_exp.py
+│   │   ├── mnist_eco2ai.py
+│   │   ├── mnist_eit.py
+│   │   └── mnist_evaluation.py
+│   ├── optuna
+│   │   ├── dncnn
+│   │   │   ├── dncnn_optuna_codecarbon.py
+│   │   │   ├── dncnn_optuna_cumulator.py
+│   │   │   ├── dncnn_optuna_eco2ai.py
+│   │   │   └── dncnn_optuna_unified.py
+│   │   └── mnist
+│   │       ├── mnist_optuna_codecarbon.py
+│   │       ├── mnist_optuna_cumulator.py
+│   │       ├── mnist_optuna_eco2ai.py
+│   │       └── mnist_optuna_unified.py
+│   └── utils
+│       ├── cleanup_outputs.py
+│       ├── fix_val_structure.py
+│       └── unified.py
+└── structure.txt
+
+17 directories, 91 files

@@ -1,0 +1,9 @@
+id,project_name,experiment_description,epoch,start_time,duration(s),power_consumption(kWh),CO2_emissions(kg),CPU_name,GPU_name,OS,region/country,cost
+d05d613c-dc1a-4814-b97a-2f322fa74487,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:09:22,5.605891942977905,2.614450283241846e-07,8.80322012671495e-08,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+ad0dda08-0704-4cd6-8ece-572e32a01e48,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:11:33,5.654383897781372,2.566518761598976e-07,8.641827982930377e-08,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+0d186018-5475-4007-aab4-246fff3420b2,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:13:22,5.662907123565674,2.67794503637712e-07,9.017015849786857e-08,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+90fa63e8-6b64-4c38-ad9c-9e67dad51add,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:16:18,5.6764819622039795,2.647562333254428e-07,8.914713034794314e-08,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+f9762c35-2c0f-4e07-91ab-b2f73b4f9343,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:18:53,5.664936065673828,2.634364761865982e-07,8.870274964269424e-08,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+dcb2b96d-5e06-437a-9371-486918068cfb,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:19:25,5.6262829303741455,2.58857442727655e-07,8.716092497059963e-08,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+b892719f-2aa7-4ba6-8c4d-2c769e03ef94,mnist_eco2ai,MNIST SimpleNN,,2026-05-06 19:26:56,9.659387111663818,4.521711243614846e-07,1.522523479682529e-07,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0
+251560c1-49f8-4119-b37f-8d36b0b56342,mnist_eco2ai,MNIST SimpleNN,N/A,2026-05-06 19:27:13,9.3614821434021,4.4107722965236464e-07,1.4851687830516632e-07,"Apple M3/1 device(s), TDP:20.0", 0 device(s),MacOS,IT/Lombardy,0

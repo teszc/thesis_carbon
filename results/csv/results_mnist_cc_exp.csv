@@ -1,0 +1,8 @@
+model,dataset,batch_size,epochs,accuracy,time_sec,co2_kg
+SimpleNN,MNIST,32,1,0.956,4.850539922714233,5.452917305833724e-07
+model,dataset,batch_size,epochs,accuracy,time_sec,co2_kg
+SimpleNN,MNIST,32,3,0.9723,8.315696001052856,1.547839170667107e-06
+model,dataset,batch_size,epochs,accuracy,time_sec,co2_kg
+SimpleNN,MNIST,128,1,0.9359,4.405716180801392,4.6002329743502824e-07
+model,dataset,batch_size,epochs,accuracy,time_sec,co2_kg
+SimpleNN,MNIST,128,3,0.9591,6.747491121292114,1.0554030032066007e-06

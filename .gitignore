@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Datasets
+tiny-imagenet-200/
+data/
+datasets/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+eco2ai_log_*.csv
+
+# System logs
+powermetrics_log.txt
+
+# Archives
+*.zip
+
+# Package metadata
+*.egg-info/
+
+# VS Code
+.vscode/

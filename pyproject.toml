@@ -1,0 +1,26 @@
+[build-system]
+requires      = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "greenoptim"
+version         = "0.1.0"
+description     = "Unified hyperparameter optimization with carbon tracking for PyTorch models"
+readme          = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "optuna",
+    "pandas",
+    "codecarbon",
+    "carbontracker",
+    "eco2ai",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+
+[tool.setuptools]
+packages = ["greenoptim", "greenoptim.models", "greenoptim.trackers"]
