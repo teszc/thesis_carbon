@@ -37,7 +37,7 @@ The following tools are evaluated:
 * **CodeCarbon**
 * **CarbonTracker**
 * **eco2ai**
-* **Cumulator** (custom lightweight estimator)
+* **Cumulator** 
 
 These tools differ in:
 
@@ -254,31 +254,6 @@ https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet
 Place the dataset in the expected data directory before running experiments.
 
 ---
-
-## Limitations
-
-This work has several limitations:
-
-* Results are based on Apple Silicon hardware.
-* Carbon intensity values may depend on regional assumptions.
-* Different tracking tools use different estimation methodologies.
-* Some tools do not fully support Apple MPS environments.
-* Estimated emissions may differ from physical measurements.
-
----
-
-## Future Work
-
-Possible future developments include:
-
-* Integration of additional trackers
-* Real-time carbon intensity APIs
-* Support for distributed systems
-* Extended multi-objective optimization
-* Packaging `greenoptim` as a standalone Python library
-
----
-
 
 ## License
 
